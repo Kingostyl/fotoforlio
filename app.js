@@ -15,3 +15,11 @@ footerp.style.margin =  "10px auto"
 footerp.style.fontSize =  "14px"
 footerp.style.lineHeight =  "28px"
 footerp.style.color =  "#cacdd2"
+
+
+const btn = document.querySelector('#menu')
+const nav = document.querySelector('.nav__links')
+
+btn.addEventListener('click', function() {
+    nav.classList.toggle('menu-active')
+})
